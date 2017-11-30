@@ -1,0 +1,38 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  width: 70%;
+  min-height: 400px;
+  min-width: 400px;
+  background: #fff;
+  padding: 40px 20px;
+  border-radius: 5px;
+  box-shadow: 5px 55px 50px -20px #b6b6b6;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.twitter {
+  display: flex;
+}
+
+.twitter__bird {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.facebook {
+  display: flex;
+}
+
+.facebook__search {
+  margin-right: auto;
+}
